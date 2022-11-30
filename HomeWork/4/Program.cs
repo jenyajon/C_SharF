@@ -1,19 +1,13 @@
 ﻿// Напишите программу, которая на вход принимает число (N), 
 // а на выходе показывает все чётные числа от 1 до N.
 
-Console.WriteLine("Введите число: ");
+Console.Write("Введите число: ");
 string num = Console.ReadLine();
 int N = int.Parse(num);
-count = 0;
+int count = 2;
 
-
-if(N == 2)
-{
-    Console.WriteLine("2 и все");
-}
-
-while(count == N)
+while(count <= N)
 {
     Console.WriteLine(count);
-    count+=2;
+    count += 2;
 }
