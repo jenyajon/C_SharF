@@ -8,7 +8,7 @@ double Func(int a, int b)
 
     for (int i = 1; i<=b_abs; i++)
     {
-        if (b > 0);
+        if (b > 0)
             n_pow *=a;
         else
             n_pow /=a;
